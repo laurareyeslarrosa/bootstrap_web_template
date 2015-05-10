@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" > 
+        <meta http-equiv="Content-Language" content="es_ES" >
+        <title>Titulo pagina</title>
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/bootstrap-glyphicons.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <script src="assets/js/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/modernizr-2.6.2.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script> 
+        <script>
+            $(document).ready(function () {
+                $("#header_image_container").height($(window).height());
+            });
+        </script> 
+    </head>
+    <body data-spy="scroll" data-target="#navbar-example">
+        <nav id='navbar-example' class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id='main_logo' class="navbar-brand" href="#"><img src='assets/img/logo.png' alt=''>Tu logo</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#fila_a">Home</a></li>
+                        <li><a href="#fila_b">Fila dos</a></li>
+                        <li><a href="#fila_c">Fila tres</a></li>
+                        <li><a href="#fila_d">Fila cuatro</a></li>
+                        <li><a href="#my_footer">About</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div class="jumbotron" id="header_image_container">
+            <div>
+                <h1>hello world!</h1>
+                <p><a class="btn btn-default btn-lg" href="#" role="button">Ver más</a></p>
+            </div>
+        </div>
+        <div class='container'>
+            <ul class="row filas" id="fila_a">
+                <li class="col-xs-12 col-sm-12 col-md-12">
+                    <h3>Lorem ipsum</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p><p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>      
+                </li>
+            </ul>
+            <ul class="row filas" id="fila_b">
+                <li class="col-xs-12 col-sm-12 col-md-12">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="assets/img/background_a.jpg" alt="">
+                                <div class="carousel-caption">
+                                    <h3>Titulo A</h3>
+                                    <p>Lorem ipsum dolor sit amet</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/background_b.jpg" alt="">
+                                <div class="carousel-caption">
+                                    <h3>Titulo B</h3>
+                                    <p>Lorem ipsum dolor sit amet</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/background_c.jpg" alt="">
+                                <div class="carousel-caption">
+                                    <h3>Titulo C</h3>
+                                    <p>Lorem ipsum dolor sit amet</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/background_d.jpg" alt="">
+                                <div class="carousel-caption">
+                                    <h3>Titulo D</h3>
+                                    <p>Lorem ipsum dolor sit amet</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/background_e.jpg" alt="">
+                                <div class="carousel-caption">
+                                    <h3>Titulo E</h3>
+                                    <p>Lorem ipsum dolor sit amet</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="row filas" id="fila_c">
+                <li class="col-xs-12 col-sm-6 col-md-6">
+                    <h3>Lorem ipsum</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <img src="assets/img/background_a.jpg" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>     
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>   
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>  
+                </li>
+                <li class="col-xs-12 col-sm-6 col-md-6">
+                    <h3>Lorem ipsum</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p class="texto_destacado">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <img src="assets/img/background_c.jpg" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>   
+                </li>
+            </ul>
+            <ul class="row filas" id="fila_d">
+                <li class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="panel panel-default panel_custom">
+                        <div class="panel-body">
+                            <img src="assets/img/background_c.jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                                <a class='btn btn-default' href="#">BOTON A</a>
+                            </div>
+                        </div> 
+                    </div>
+                </li>
+                <li class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="panel panel-default panel_custom">
+                        <div class="panel-body">
+                            <img src="assets/img/background_d.jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                                <a class='btn btn-default' href="#">BOTON A</a>
+                            </div>
+                        </div> 
+                    </div>
+                </li>
+                <li class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="panel panel-default panel_custom">
+                        <div class="panel-body">
+                            <img src="assets/img/background_e.jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                                <a class='btn btn-default' href="#">BOTON A</a>
+                            </div>
+                        </div> 
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <footer id='my_footer'>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 col-md-3">
+                        <h5>Copyright &copy; 2015 <a id='my_link' href="https://laurareyeslarrosa.wordpress.com/">Laura Reyes (say hi!)</a></h5>
+                    </div><!-- end col-sm-2 -->
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h4>Sobre nosotros</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div><!-- end col-sm-4 -->
+                    <div class="col-xs-12 col-sm-5 col-md-5">
+                        <h4>Mantente en contacto</h4>
+                        <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="my_mail" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="my_mail" placeholder="Asunto">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="my_message" rows="3" placeholder="Mensaje"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-default">Enviar</button>
+                        </form>
+                    </div><!-- end col-sm-4 -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </footer>
+        <script>
+            $('body').scrollspy({target: '#navbar-example'});
+            $('.carousel').carousel();
+        </script>
+    </body>
+</html>
